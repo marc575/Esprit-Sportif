@@ -42,7 +42,10 @@
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li class="active"><a href="{{ path('index') }}" class="nav-link">Accueil</a></li>
                             <li><a href="https://refpa1282225.top/L?tag=d_639887m_1599c_&site=639887&ad=1599" class="nav-link">S'inscrire</a></li>
+                            <li><a href="{{ path('index') }}#offre" class="nav-link">Offres</a></li>
                             <li><a href="{{ path('index') }}#promo" class="nav-link">Promotion</a></li>
+                            <li><a href="{{ path('index') }}#création" class="nav-link">Création</a></li>
+                            <li><a href="{{ path('index') }}#conseils" class="nav-link">Conseils</a></li>
                         </ul>
                     </nav>
                     <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white">
@@ -69,7 +72,7 @@
         </div>
     </div>
     <br>
-    <div class="latest-news">
+    <div class="latest-news" id="offre">
         <div class="container">
             <div class="row">
                 <div class="col-12 title-section">
@@ -117,7 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="latest-news">
+    <div class="latest-news" id="création">
         <div class="container">
             <div class="row">
                 <div class="col-12 title-section">
@@ -263,7 +266,7 @@
         </div>
     </div>
 
-    <div class="latest-news">
+    <div class="latest-news" id="conseils">
         <div class="container">
             <div class="row">
                 <div class="col-12 title-section">
@@ -411,6 +414,43 @@
             </div>
         </div>
     </div>
+    <div class="latest-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title-section">
+                    <h2 class="heading"><p style="color:yellow">BETWINNER</p>Code PEKAKO</h2>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-5">
+                    <div class="post-entry">
+                        <a href="#">
+                            <img src="{{ asset('./assets/images/promo_3.jpg') }} " alt="Image" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <div class="post-entry">
+                        <a href="#">
+                            <img src="{{ asset('./assets/images/promo_4.jpg') }} " alt="Image" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1"> </div>
+            </div>
+            <p style="color: white">
+                <br>Inscrivez-vous sur le Site BET WINNER et reçevez un fantastique bonus de 200 % sur votre premier dépôt avec le code promo : PEKAKO en majuscule
+                Liens du site 👉👉<a href="https://bwredir.com/1bY0?p=/user/registration/">Inscription</a>
+
+                <br><br>Code promo = <a href="#">PEKAKO</a> en majuscule.
+
+                <br><br>Liens pour télécharger l'application <a href="https://bwredir.com/1jlk">👉BET WINNER.</a>
+            </p>
+
+        </div>
+    </div>
+    <!-- .site-section -->
     <footer class="footer-section">
         <div class="container">
             <div class="row">
@@ -459,6 +499,10 @@
             </div>
         </div>
     </footer>
+</div>
+
+<div id="back-top" >
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 
 <script src="{{ asset('./assets/js/jquery-3.3.1.min.js') }}"></script>
